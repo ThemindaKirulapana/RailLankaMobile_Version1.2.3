@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shedule"
+    android:background="#EECED67E">
+
+    <TextView
+        android:id="@+id/txtviewTarinSheduleTitle"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:text="Train Shedule"
+        android:textSize="20pt"
+        android:textColor="#F64343"
+        android:background="#000000"
+        android:textDirection="inherit"
+        android:fontFamily="monospace"/>
+    <EditText
+        android:id="@+id/startStation"
+        android:layout_width="300dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="99dp"
+        android:textColorHint="@color/black"
+        android:text="Search start station"
+        android:textSize="25dp"/>
+    <Button
+        android:id="@+id/SearchShedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:textSize="20dp"
+        android:text="Search"
+        android:fontFamily="monospace"
+        android:textColor="#8C0101"
+        android:backgroundTint="#03A9F4"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SearchShedule"
+        android:layout_marginTop="20pt">
+
+        <TextView
+            android:id="@+id/arrivalTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/departureTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/arrivalTimeTextView"
+
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/delaysTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/departureTimeTextView"
+
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/destinationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/delaysTextView"
+
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+    </RelativeLayout>
+
+    <Button
+
+        android:id="@+id/search_allShedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="750dp"
+        android:layout_marginLeft="65dp"
+        android:textSize="23dp"
+        android:text="Search All Shedules"
+        android:fontFamily="monospace"
+        android:textColor="#FFC107"
+        android:backgroundTint="#064663"/>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "459044203262",
+    "firebase_url": "https://raillanka-default-rtdb.firebaseio.com",
+    "project_id": "raillanka",
+    "storage_bucket": "raillanka.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459044203262:android:5e44b6f21a5238cff713af",
+        "android_client_info": {
+          "package_name": "com.example.raillankamobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXJBqljKU_HZ4ROSRqvBAc4EOq4JEOZtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

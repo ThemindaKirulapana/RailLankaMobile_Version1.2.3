@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashbord"
+
+    android:background="#073F59">
+
+    <ImageView
+        android:id="@+id/imgshedule"
+        android:layout_width="120dp"
+        android:layout_height="73dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/logoraillanka" />
+    <Button
+        android:id="@+id/search_Train"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnTrainSchedule"
+        android:layout_marginLeft="100dp"
+        android:textColor="#DE93EF"
+        android:text="Search Train Shedule"
+        android:textSize="20dp"
+        />
+    <!-- Train Schedule Image Button -->
+    <ImageButton
+        android:id="@+id/btnTrainSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shedulelogo"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="95dp"/>
+
+    <!-- Passenger Information Image Button -->
+    <ImageButton
+        android:id="@+id/btnPassengerInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/passenger1"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:layout_below="@id/btnTrainSchedule"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="95dp"/>
+
+    <Button
+        android:id="@+id/tour_Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPassengerInfo"
+        android:layout_marginLeft="100dp"
+        android:textColor="#DE93EF"
+        android:text="Your details"
+        android:textSize="20dp"
+        />
+
+
+
+
+
+</RelativeLayout>

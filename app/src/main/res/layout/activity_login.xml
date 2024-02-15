@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/home_bg">
+
+
+    <TextView
+        android:id="@+id/txtSignIn"
+
+        android:layout_width="308dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:shadowColor="#FFFFFF"
+        android:text="Log In"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <TextView
+        android:id="@+id/txtnic"
+        android:layout_width="308dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/txtSignIn"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="serif"
+        android:shadowColor="#FFEB3B"
+        android:text="NIC "
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <EditText
+        android:id="@+id/txtEditnic"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/txtSignIn"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:drawable/editbox_background"
+        android:fontFamily="serif"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/txtPassword"
+        android:layout_width="308dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/txtSignIn"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="serif"
+        android:shadowColor="#FFFFFF"
+        android:text="User Name"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+
+
+    <TextView
+        android:id="@+id/txtNIC"
+        android:layout_width="308dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/txtSignIn"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="serif"
+        android:shadowColor="#FFFFFF"
+        android:text="Password"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+
+    <EditText
+        android:id="@+id/txtEditpw"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/txtEditnic"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="81dp"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/btnLetMeIn"
+        android:layout_width="312dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/txtEditnic"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Login"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <EditText
+        android:id="@+id/txtEditus"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/txtEditnic"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="21dp"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:fontFamily="serif"
+
+        android:inputType="text"
+       />
+
+
+</RelativeLayout>
